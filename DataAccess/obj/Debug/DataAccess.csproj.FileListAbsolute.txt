@@ -1,0 +1,7 @@
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\bin\Debug\DataAccess.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\bin\Debug\DataAccess.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\bin\Debug\BusinessObjects.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\bin\Debug\BusinessObjects.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\obj\Debug\DataAccess.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\DataAccess\obj\Debug\DataAccess.pdb

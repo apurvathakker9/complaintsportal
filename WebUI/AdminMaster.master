@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="App_Themes/Default/Style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="mainContainer">
+            <div id="header">
+                <div id="socialLinks">
+                    <div id="Welcome" style="margin-bottom: 50px; padding-top: 10px; height: 25px; width: 76px;">
+                        Welcome: <asp:LoginName ID="LoginName1" runat="server" />
+                    </div>
+                    <div id="socialLinksImages" style="margin-top: 50px;">
+                        <asp:Image ID="imgFacebook" runat="server" ImageUrl="~/App_Themes/Default/Images/facebook.png" />
+                        <asp:Image ID="ImgTwitter" runat="server" ImageUrl="~/App_Themes/Default/Images/twitter.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="menuBar" class="navbar navbar-inverse navbar-static-top container-fluid">
+                <ul id="menuList" class="nav navbar-nav">
+                    <li><asp:HyperLink ID="Home" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" Id="AddViewComplaints">Add/View Complaints
+                        <span class="caret"></span></a>
+                        <ul id="menuList menuBar" class="dropdown-menu dropdown-menu-right nav navbar-nav" style="width:92%; background-color:#5f5f5f">
+                            <li> <asp:HyperLink ID="AddComplaints" NavigateUrl="~/Citizens/NewComplaint.aspx" runat="server">Add Complaint</asp:HyperLink></li>
+                            <li> <asp:HyperLink ID="MyComplaintsDrop" NavigateUrl="~/Citizens/MyComplaints.aspx" runat="server">My Complaints</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li><asp:HyperLink ID="MyComplaints" runat="server" NavigateUrl="~/OnDutyOfficial/ComplaintsAssingedToMe.aspx">Complaints Assinged</asp:HyperLink> </li>
+                    <li><asp:HyperLink ID="ForOfficials" runat="server" NavigateUrl="~/DepartmentOfficials/Default.aspx">For Officials</asp:HyperLink></li>
+                    
+                    <li><asp:HyperLink ID="AboutUs" runat="server" NavigateUrl="#">About us</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="Admin" runat="server" NavigateUrl="~/SuperAdmin/Default.aspx">Admin</asp:HyperLink></li>
+                    
+                </ul>
+                <ul id="menuList" class="nav navbar-nav navbar-right">
+                    <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
+                </ul>  
+            </div>
+            <div class="spacer20"></div>
+            <div id="bodyContainer">
+                <div id="leftContainer">
+                    <ul id="adminMenu">
+                        <li>
+                            <asp:HyperLink ID="HyperLink8" class="admin_nav_bar" runat="server" NavigateUrl="~/SuperAdmin/ManageRoles.aspx">Manage Roles</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink15" class="admin_nav_bar" runat="server" NavigateUrl="~/SuperAdmin/ManageUsers.aspx">Manage Users</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink16" class="admin_nav_bar" runat="server" NavigateUrl="~/SuperAdmin/AssignRoles.aspx">Assign Roles</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink1" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageStates.aspx" runat="server">Manage States</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink2" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageCities.aspx" runat="server">Manage Cities</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink3" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageVillages.aspx" runat="server">Manage Villages</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink4" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageLocalities.aspx" runat="server">Manage Localities</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink5" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageDepartmentTypes.aspx" runat="server">Manage DepartmentTypes</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink6" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageDepartments.aspx" runat="server">Manage Departments</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink9" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageGovernmentOfficials.aspx" runat="server">Manage Government Officials</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="DepartmentForOfficials" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageDepartmentForOfficials.aspx" runat="server">Manage Department for Officials</asp:HyperLink>
+                        </li>
+                        <!--<li>
+                            <asp:HyperLink ID="HyperLink13" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageEscalationLevels.aspx" runat="server">Manage Department Escalation Levels</asp:HyperLink>
+                        </li>-->
+                        <li>
+                            <asp:HyperLink ID="HyperLink14" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageDepartmentDesignations.aspx" runat="server">Manage Department Designations</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink7" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageDepartmentXAreaOnDuty.aspx" runat="server">Manage On Duty Officials</asp:HyperLink>
+                        </li>
+
+                        <li>
+                            <asp:HyperLink ID="HyperLink10" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageAdhaarXContactNumber.aspx" runat="server">Manage Adhaar-Phone Mappings</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink11" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageComplaintStatus.aspx" runat="server">Manage Complaint Status</asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink12" class="admin_nav_bar" NavigateUrl="~/SuperAdmin/ManageComplaintTypes.aspx" runat="server">Manage Complaint Types</asp:HyperLink>
+                        </li>
+
+                    </ul>
+                    <asp:ContentPlaceHolder ID="LeftContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div  style="float:right; width:78%; min-height:600px;">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

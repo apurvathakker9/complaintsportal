@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AdharXContactNumberDA.cs" />
+    <Compile Include="Classes\AdharXOTPDA.cs" />
+    <Compile Include="Classes\BaseDataAccess.cs" />
+    <Compile Include="Classes\CityDA.cs" />
+    <Compile Include="Classes\ComplaintDA.cs" />
+    <Compile Include="Classes\ComplaintStatusDA.cs" />
+    <Compile Include="Classes\ComplaintTypeDA.cs" />
+    <Compile Include="Classes\ComplaintXEscalationLevelDA.cs" />
+    <Compile Include="Classes\ComplaintXStatusDA.cs" />
+    <Compile Include="Classes\DBHelper.cs" />
+    <Compile Include="Classes\DepartmentDesignationDA.cs" />
+    <Compile Include="Classes\DepartmentDA.cs" />
+    <Compile Include="Classes\DepartmentEscalationLevelDA.cs" />
+    <Compile Include="Classes\DepartmentTypeDA.cs" />
+    <Compile Include="Classes\DepartmentXAreaInchargeDA.cs" />
+    <Compile Include="Classes\DepartmentXAreaOnDutyDA.cs" />
+    <Compile Include="Classes\DepartmentXOfficialsDA.cs" />
+    <Compile Include="Classes\GovernmentOfficialDA.cs" />
+    <Compile Include="Classes\LocalityDA.cs" />
+    <Compile Include="Classes\OfficialXComplaintsAssignedDA.cs" />
+    <Compile Include="Classes\StateDA.cs" />
+    <Compile Include="Classes\VillageDA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj">
+      <Project>{8a996737-f57b-4104-807b-9ff2a03cf2db}</Project>
+      <Name>BusinessObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{8A996737-F57B-4104-807B-9FF2A03CF2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{B654B49F-EFAB-4258-82A4-F650BBC16048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "TestUI\TestUI.csproj", "{472F5CCE-5BF5-4130-9C6B-8EF1C93BCA97}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebUI", "WebUI", "{3A9B6206-18E1-4123-9899-1A21E10C8AF6}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{b654b49f-efab-4258-82a4-f650bbc16048}|BusinessLogic.dll;{8A996737-F57B-4104-807B-9FF2A03CF2DB}|BusinessObjects.dll;{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}|DataAccess.dll;{9286bba9-c9d2-4cfa-9bdf-23f772503948}|OutwardCommunication.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61535"
+		Debug.AspNetCompiler.PhysicalPath = "WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61535\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61535"
+		Release.AspNetCompiler.PhysicalPath = "WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61535\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61535"
+		SlnRelativePath = "WebUI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutwardCommunication", "OutwardCommunication\OutwardCommunication.csproj", "{9286BBA9-C9D2-4CFA-9BDF-23F772503948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A996737-F57B-4104-807B-9FF2A03CF2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A996737-F57B-4104-807B-9FF2A03CF2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A996737-F57B-4104-807B-9FF2A03CF2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A996737-F57B-4104-807B-9FF2A03CF2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B654B49F-EFAB-4258-82A4-F650BBC16048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B654B49F-EFAB-4258-82A4-F650BBC16048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B654B49F-EFAB-4258-82A4-F650BBC16048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B654B49F-EFAB-4258-82A4-F650BBC16048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B659E0-3DCD-4EC8-848B-9E3E2D7959E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472F5CCE-5BF5-4130-9C6B-8EF1C93BCA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472F5CCE-5BF5-4130-9C6B-8EF1C93BCA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472F5CCE-5BF5-4130-9C6B-8EF1C93BCA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472F5CCE-5BF5-4130-9C6B-8EF1C93BCA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9B6206-18E1-4123-9899-1A21E10C8AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9B6206-18E1-4123-9899-1A21E10C8AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9B6206-18E1-4123-9899-1A21E10C8AF6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9B6206-18E1-4123-9899-1A21E10C8AF6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9286BBA9-C9D2-4CFA-9BDF-23F772503948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9286BBA9-C9D2-4CFA-9BDF-23F772503948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9286BBA9-C9D2-4CFA-9BDF-23F772503948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9286BBA9-C9D2-4CFA-9BDF-23F772503948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://complaintsportal.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessObjects\\BusinessObjects.csproj
+		SccProjectName1 = BusinessObjects
+		SccLocalPath1 = BusinessObjects
+		SccProjectUniqueName2 = BusinessLogic\\BusinessLogic.csproj
+		SccProjectName2 = BusinessLogic
+		SccLocalPath2 = BusinessLogic
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = TestUI\\TestUI.csproj
+		SccProjectName4 = TestUI
+		SccLocalPath4 = TestUI
+		SccWebProject5 = true
+		SccProjectUniqueName5 = WebUI
+		SccProjectName5 = WebUI
+		SccLocalPath5 = WebUI
+		SccProjectEnlistmentChoice5 = 2
+		SccProjectUniqueName6 = OutwardCommunication\\OutwardCommunication.csproj
+		SccProjectName6 = OutwardCommunication
+		SccLocalPath6 = OutwardCommunication
+	EndGlobalSection
+EndGlobal

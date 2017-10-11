@@ -1,0 +1,9 @@
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\BusinessLogic.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\BusinessLogic.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\BusinessObjects.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\DataAccess.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\BusinessObjects.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\bin\Debug\DataAccess.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\obj\Debug\BusinessLogic.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessLogic\obj\Debug\BusinessLogic.pdb

@@ -1,0 +1,4 @@
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\OutwardCommunication\bin\Debug\OutwardCommunication.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\OutwardCommunication\bin\Debug\OutwardCommunication.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\OutwardCommunication\obj\Debug\OutwardCommunication.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\OutwardCommunication\obj\Debug\OutwardCommunication.pdb

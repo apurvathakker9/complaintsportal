@@ -1,0 +1,4 @@
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessObjects\bin\Debug\BusinessObjects.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessObjects\bin\Debug\BusinessObjects.pdb
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessObjects\obj\Debug\BusinessObjects.dll
+F:\DotnetProjects\WebApplications\Civic-Aminities-Inofsys-Hackathon\CivicAminities\ComplaintsPortal\BusinessObjects\obj\Debug\BusinessObjects.pdb

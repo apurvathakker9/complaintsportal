@@ -1,0 +1,207 @@
+﻿body
+{
+    font-family:Arial;
+    margin:0px;
+    padding:0px;
+    
+}
+
+.spacer5
+{
+    clear:both;
+    height:5px;
+}
+
+.spacer10
+{
+    clear:both;
+    height:10px;
+}
+
+.spacer15
+{
+    clear:both;
+    height:15px;
+}
+
+.spacer20
+{
+    clear:both;
+    height:20px;
+}
+
+.sperator
+{
+    clear:both;
+}
+
+.button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.button1
+{
+    background-color: #cccccc; 
+    border: 1px ridge #bbbbbb;
+    border-radius: 5px;
+    color: #555555;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow:0px 1px 10px #999999;
+}
+
+h1
+{
+    font-size:20px;
+
+}
+h2
+{
+    font-size:18px;
+}
+h3
+{
+    font-size:16px;
+}
+p
+{
+    margin:5px 0px;
+}
+#mainContainer
+{
+    width:100%;
+    margin:0 auto;
+}
+#header
+{
+    height:120px;
+    background-image:url(Images/banner2.jpg);
+   
+}
+#socialLinks
+{
+    float:right;
+    width: 70px;
+    margin-left: 28px;
+}
+
+.color-me{
+    color:orange;
+}
+#menuBar
+{
+    background-color:#5f5f5f;
+    /*border:1px solid #e6e6e6;*/
+    
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#Home,#AddViewComplaints,#MyComplaints,#ForOfficials,#AboutUs,#Admin,#LoginStatus1,#AddComplaints,#MyComplaintsDrop
+{
+    color:#f1f1f1;
+}
+#Home:hover,#AddViewComplaints:hover,#MyComplaints:hover,#ForOfficials:hover,#AboutUs:hover,#Admin:hover,#LoginStatus1:hover,#AddComplaints:hover,#MyComplaintsDrop:hover
+{
+    color:#e62842;
+}
+
+#menuList
+{
+    list-style-type:none;
+    font-size:large;
+    
+}
+#menuList li
+{
+    display:inline;
+    padding-right:20px;
+    padding-left:20px;
+    
+    
+}
+#rightContainer
+{
+    float:left;
+    width:100%;
+    min-height:600px;
+}
+#leftContainer
+{
+    float:left;
+    width:20%;
+}
+
+#adminMenu
+{
+    list-style:none; 
+    padding:10px 0px; 
+    margin:0px;
+    border-right:2px solid #c8b9b9;
+    box-shadow: 5px 0px 12px #888888;
+}
+
+#adminMenu li
+{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.admin_nav_bar
+{
+    color:#808080;
+}
+#login
+{
+    text-align:center;
+    margin-top:50px;
+}
+#loginpane
+{
+    margin:auto;
+    left:0px;
+    right:0px;
+    position:absolute;
+    width:22%;
+}
+.contain_padding
+{
+    margin:auto;
+    left:0px;
+    right:0px;
+    position:absolute;
+    width:25%;
+}
+.contain_padding1
+{
+    padding:0px;
+    margin:auto;
+    left:0px;
+    right:0px;
+    position:absolute;
+    width:40%;
+}
+.contain_DepartmentOfficials
+{
+    padding:0px;
+    margin:auto;
+    left:0px;
+    right:0px;
+    position:absolute;
+    width:30%;
+    border:2px solid #666666;
+    box-shadow:0px 0px 12px #888888;
+} 
+.padding5
+{
+    padding:5px;
+}
+/*
+    CSS
+*/
